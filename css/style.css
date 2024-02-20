@@ -199,7 +199,6 @@ footer p {
     letter-spacing: 0.04em;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     color: #fff;
-    cursor: pointer;
     text-align: center;
     padding: 16px 32px;
      margin-left: auto;
@@ -253,16 +252,13 @@ footer p {
     border: 0;
     padding: 0;
     clip: rect(0 0 0 0);
-    clip-path: inset(50%);
+    clip-path: inset(100%);
     margin: -1px;
     
 }
 /* ================= /Section benefits style ================= */
 
 /* ================= Section team style ================= */
-.main-headline {
-    
-}
 
 .section-team {
     background-color: #F4F4FD;
