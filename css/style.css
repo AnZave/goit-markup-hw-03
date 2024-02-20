@@ -54,12 +54,12 @@ footer p {
     width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
-    margin: 0 auto  ;
+    margin: 0 auto;
 }
 
 .section {
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 
 .visually-hidden {
@@ -181,9 +181,12 @@ footer p {
     background-color: #2E2F42;
 }
 
-.container-hero {
-    padding-right: 0;
-    padding-left: 0;
+.hero-container {
+    padding-right: 472px;
+    padding-left: 472px;
+    padding-top: 188px;
+    padding-bottom: 292px;
+    
 }
 
 .hero-headline {
