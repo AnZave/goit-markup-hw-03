@@ -179,13 +179,6 @@ footer p {
 /*================= Hero section style =================*/
 .hero-section {
     background-color: #2E2F42;
-}
-
-.hero-container {
-    padding-right: 472px;
-    padding-left: 472px;
-    padding-top: 188px;
-    padding-bottom: 292px;
     
 }
 
@@ -205,21 +198,18 @@ footer p {
     line-height: 1.5;
     letter-spacing: 0.04em;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-    background: #4d5ae5;
-    border:none;
     color: #fff;
     cursor: pointer;
     text-align: center;
-    border-radius: 4px;
     padding: 16px 32px;
+     margin-left: auto;
+    margin-right: auto;
     display: block;
     min-width: 169px;
     height: 56px;
-    margin-left: auto;
-    margin-right: auto;
-    
-    
-    
+    border: none;
+    background-color: #4d5ae5;
+    border-radius: 4px;
 }
 
 .hero-section-btn:hover, 
@@ -242,6 +232,31 @@ footer p {
     
 }
 
+.benefits-list-item {
+    width: calc((100% - 72px) / 4);
+}
+
+.level-headline {
+    margin-bottom: 8px;
+}
+.section-benefits {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+    
+}
 /* ================= /Section benefits style ================= */
 
 /* ================= Section team style ================= */
