@@ -314,7 +314,6 @@ footer p {
     text-align: center;
     text-transform: capitalize;
     margin-bottom: 72px; 
-    margin-bottom: 8px;
     
 }
 
@@ -329,6 +328,7 @@ footer p {
     text-align: left;
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
+    border-top: none;
 }
 
 .portfolio-p {
@@ -344,6 +344,10 @@ footer p {
     column-gap: 24px;
     row-gap: 48px;
     
+}
+
+.portfolio-headline-level {
+    margin-bottom: 8px;
 }
 
 .portfolio-list-item {
