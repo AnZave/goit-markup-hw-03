@@ -54,12 +54,26 @@ footer p {
     width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
-    margin: 0;
+    margin: 0 auto  ;
 }
 
 .section {
-    padding-top: 188px;
-    padding-bottom: 188px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+    
 }
 /*================= /Common style ===================*/
 
@@ -220,16 +234,16 @@ footer p {
 }
 .benefits-list {
     display: flex;
-    gap: 12px;
+    gap: 24px;
     text-align: left;
     
 }
+
 /* ================= /Section benefits style ================= */
 
 /* ================= Section team style ================= */
 .main-headline {
-    margin-top: 60px;
-    margin-bottom: 60px;
+    
 }
 
 .section-team {
@@ -241,6 +255,7 @@ footer p {
     line-height: 1.11;
     text-align: center;
     text-transform: capitalize;
+    margin-bottom: 72px;
 }
 
 .team-list-item {
@@ -268,6 +283,8 @@ footer p {
     margin-right: auto;
     margin-left: auto;
     text-align: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
     
 }
 /* ================= /Section team style ================= */
@@ -279,6 +296,7 @@ footer p {
     line-height: 1.11;
     text-align: center;
     text-transform: capitalize;
+    margin-bottom: 72px;
     
 }
 
@@ -329,10 +347,7 @@ footer p {
     display: block;
 }
 
-.main-footer{
-    margin-top: 120px;
-    height: 312px;
-}
+
 .footer-p {
     line-height: 1.5;
     color: #F4F4FD;
@@ -347,9 +362,9 @@ footer p {
 }
 
 .footer-container-logo {
-    margin-left: 104px;
+    padding-left: 104px;
     margin-right: auto;
-    margin-bottom: auto;
+    padding-bottom: 130px;
     
 }
 /* ================= /Section footer style ================= */
